@@ -16,8 +16,9 @@
 .rating-template{
     background-color: hsl(213, 19%, 18%);
     padding: 2rem;
-    width: 25%;
+    width: 23%;
     border-radius: 20px;
+    min-width:330px;
 }
 .rating-template h1{
     font-weight: 700;
@@ -79,8 +80,9 @@ button:hover{
     /* display: none; */
     background-color: hsl(213, 19%, 18%);
     padding: 2rem;
-    width: 25%;
+    width: 23%;
     border-radius: 20px;
+    min-width:330px;
 }
 .thanks-img{
     display: flex;
