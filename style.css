@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating-template{
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    width: 25%;
+    border-radius: 20px;
+}
+.rating-template h1{
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+.star{
+    margin-bottom: 1.5rem;
+    background-color:hsl(216, 12%, 54%,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%);
+    background-color:hsl(216, 12%, 54%,0.2);
+    margin-bottom: 1.8rem;
+    cursor: pointer;
+}
+.num:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+button{
+    width: 100%;
+    background-color:hsl(25, 97%, 53%);
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+}
+button:hover{
+    background-color:white;
+    color:hsl(25, 97%, 53%);
+}
+.thanks{
+    /* display: none; */
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    width: 25%;
+    border-radius: 20px;
+}
+.thanks-img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+#rated{
+    background-color:hsl(216, 12%, 54%,0.2);
+    color: hsl(25, 97%, 53%);
+    width: 60%;
+    margin: auto;
+    padding: 0.2rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.thanks h1{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.thanks p{
+    text-align: center;
+}
+.click-class{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+.hover-class{
+    background-color:white;
+    color:hsl(25, 97%, 53%);
+}
+.display-none{
+    display: none;
+}
